@@ -1,0 +1,21 @@
+
+.glyphicon {margin-right: 4px;}
+
+
+.table > thead > tr > td.selectedRow, .table > tbody > tr > td.selectedRow, .table > tfoot > tr > td.selectedRow, .table > thead > tr > th.selectedRow, .table > tbody > tr > th.selectedRow, .table > tfoot > tr > th.selectedRow, .table > thead > tr.selectedRow > td, .table > tbody > tr.selectedRow > td, .table > tfoot > tr.selectedRow > td, .table > thead > tr.selectedRow > th, .table > tbody > tr.selectedRow > th, .table > tfoot > tr.selectedRow > th {
+background-color: #fcf8e3;
+}
+.tableaction{ position:relative;height : 60px; margin-bottom : 0px; padding-left : 0px;}
+.nbselected{ position:relative;height : 20px; margin-bottom : 0px; padding-left : 0px; padding-top : 7px;}
+.response{ padding-left:0;padding-right:0;}
+
+.tableaction button{ padding : 5px 5px;}
+.alert {padding: 5px 15px;}
+.alert-dismissable .close {top: auto;right: auto;}
+.lightbox{position:absolute; border-radius: 5px; border:1px solid grey;background : white; margin-left : 50%; left : -33.3333%;padding-bottom: 20px; box-shadow: 5px 5px 10px;}
+/*.alert {padding: 15px;margin-bottom: 20px;border: 1px solid transparent;border-radius: 4px;}*/
+a{cursor:pointer;}
+.small{font-size: 85%; color:silver;}
+h1 .small{font-size: 50%; color:silver;}
+
+@media (min-width: 992px) { .response{ padding-left:15px;padding-right:0px;} }

@@ -1,0 +1,27 @@
+<h3>Ajouter des images</h3>
+
+        <h3>Gestion des images</h3>
+        
+<div class="imggest row" >
+            <div  ng-repeat="image in images" class="col-sm-6 col-md-6 col-lg-4"><div class="blockimg"><img src="/imgs/thumbnail/{{image.name}}" height="90" width="auto"><p>{{image.name}}</p></div></div>
+</div>
+    </form>
+
+
+<h3>Modifier les informations </h3>
+	<form ng-submit="editProject()">
+
+		<div class="form-group" rel="name">
+            <label for="name">Nom</label>
+            
+            <input type="text" class="form-control small-input" id="name" name="name" placeholder="Entrez le nom du projet" ng-model="proToEdit.name" required>
+        </div>
+       <div class="form-group" rel="description">
+            <label for="description">Description</label>
+            <textarea type="text" class="form-control" id="description" name="description" placeholder="Entrez votre description"  rows="7" ng-model="proToEdit.description"></textarea>
+        </div>
+       
+		<div class="handleErrors"></div>
+		<button type="submit" class="btn btn-default" >Submit</button>
+	
+	</form>
